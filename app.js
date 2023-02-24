@@ -19,7 +19,6 @@ app.use(express.static("public"));
 mongoose.set("strictQuery", false);
 
 const password = process.env.PASS;
-console.log(password);
 
 mongoose
   .connect(
