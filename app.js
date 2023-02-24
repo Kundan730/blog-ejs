@@ -19,10 +19,11 @@ app.use(express.static("public"));
 mongoose.set("strictQuery", false);
 
 const password = process.env.PASS;
+console.log(password);
 
 mongoose
   .connect(
-    `mongodb+srv://Kundan7:${password}@cluster0.sk1g6fg.mongodb.net/blogDB`,
+    `mongodb+srv://Flash7:${password}@cluster0.sk1g6fg.mongodb.net/blogsDB`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
