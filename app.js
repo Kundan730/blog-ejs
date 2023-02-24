@@ -22,7 +22,7 @@ const password = process.env.PASS;
 
 mongoose
   .connect(
-    `mongodb+srv://Kundan7:${password}@cluster0.sk1g6fg.mongodb.net/blogsDB`,
+    `mongodb+srv://Kundan7:${password}@cluster0.sk1g6fg.mongodb.net/blogDB`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
